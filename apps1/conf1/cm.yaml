@@ -7,3 +7,5 @@ metadata:
   creationTimestamp: null
   name: config
   namespace: default
+  annotations:
+    argocd.argoproj.io/sync-options: Prune=confirm
