@@ -7,6 +7,6 @@ metadata:
   creationTimestamp: null
   name: config
   namespace: default
-  annotations:
-    argocd.argoproj.io/sync-options: Prune=confirm
-    argocd.argoproj.io/sync-options: Delete=false
+  #annotations:
+  #  argocd.argoproj.io/sync-options: Prune=confirm
+  #  argocd.argoproj.io/sync-options: Delete=false
